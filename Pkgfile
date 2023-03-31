@@ -67,10 +67,10 @@ vars:
   ipxe_sha256: df9e6e4612c2d4b0003ae2cc4686da4fdce2a6a1ab71238fda6e3964b11a8c28
   ipxe_sha512: b241fd32d9a2100f99334d9d09e2736af0ea724923f66693e574e480a616fed2cd127f6851bea1c80fd35792048700afcb18e42eb3c3d2b35816d3917cbfb0c2
 
-  # renovate: datasource=git-tags extractVersion=^v(?<version>.*)$ depName=git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
-  linux_version: 6.1.22
-  linux_sha256: 2be89141cef74d0e5a55540d203eb8010dfddb3c82d617e66b058f20b19cfda8
-  linux_sha512: 9db5360c85a2e8c7d1a3a37e0d79dafe3561566e098394a15e8cb48929a7afa74b203d3d67c286a8ddb4359a0ba8d45f33678219f9ccb8f728d1c4d4455fd27f
+  # renovate: datasource=git-tags extractVersion=^v(?<version>.*)$ depName=git://git.kernel.org/pub/scm/linux/kernel/git/mainline/linux.git
+  linux_version: 6.3-rc4
+  linux_sha256: 63a60207c67069caeb8fec194e53f0145eeb00c0fe102e8c6c1191da77248534
+  linux_sha512: 4f3ecf8232ae13824884d6732983a92e23f38a1e3f03108c4f1ed4d34664df2d949f1c661cc8d053aa2be46b88025294a5b70c01b6acd1a28a03beb59903d8c8
 
   # renovate: datasource=git-tags extractVersion=^v(?<version>.*)$ depName=git://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git
   kmod_version: 30

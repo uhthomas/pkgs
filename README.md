@@ -2,7 +2,7 @@
 
 ## Customisation
 
-This is a fork of sidero/pkg which uses Linux mainline (6.3-rc4). This is mainly
+This is a fork of sidero/pkg which uses Linux mainline (6.2.9). This is mainly
 to enable support for Intel Arc which is only available from Linux 6.2 onwards.
 
 To publish the kernel:
@@ -22,7 +22,7 @@ To publish the installer:
 To upgrade the node:
 
 ```sh
-❯ talosctl upgrade --image ghcr.io/uhthomas/talos-installer:v1.4.0-alpha.4 --preserve=true
+❯ talosctl upgrade -i ghcr.io/uhthomas/talos-installer:v1.4.0-alpha.4 -p
 ```
 
 References:
